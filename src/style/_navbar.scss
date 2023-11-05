@@ -1,0 +1,50 @@
+
+$navbar-bg-color: #000; 
+$navbar-text-color: #fff; 
+$navbar-link-color: #fff; 
+$navbar-link-hover-color: #ccc; 
+
+nav {
+  background-color: $navbar-bg-color;
+  color: $navbar-text-color;
+  margin-bottom: 5px;
+  
+ 
+
+  ul {
+    list-style: none;
+    padding: 0; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+
+    li {
+      a {
+        text-decoration: none;
+        color: $navbar-link-color;
+        transition: color 0.3s;
+        display: flex;
+
+        &:hover {
+          color: $navbar-link-hover-color;
+        }
+
+        .cartIcon{
+          position: relative;
+
+           .mount{
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        background-color: red;
+      }
+        }
+      }
+     
+    }
+  }
+}

@@ -1,0 +1,15 @@
+$footer-bg-color: #000; 
+$footer-text-color: #fff; 
+
+
+footer{
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+    margin-top: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+}
